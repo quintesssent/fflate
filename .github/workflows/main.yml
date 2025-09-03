@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Run npm audit
-        run: npm audit --production --audit-level=medium
+        run: npm audit --production
