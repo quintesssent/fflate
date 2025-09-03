@@ -24,3 +24,6 @@ jobs:
 
       - name: Run npm audit
         run: npm audit --production
+
+      - name: Audit with snyk
+        run: npm install -g snyk && snyk test
